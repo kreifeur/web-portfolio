@@ -21,6 +21,10 @@ import power from "./tech/power.png";
 import talend from "./tech/talend.png";
 import oracle from "./tech/oracle.png";
 import mysql from "./tech/mysql.svg";
+import project1 from './tech/project1.png'
+import project2 from './tech/project2.png'
+import project3 from './tech/project3.png'
+import project4 from './tech/project4.png'
 export {
   css,
   docker,
@@ -45,4 +49,8 @@ export {
   talend,
   oracle,
   mysql,
+  project1,
+  project2,
+  project3,
+  project4,
 };
