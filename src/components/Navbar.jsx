@@ -7,7 +7,7 @@ const Navbar = () => {
   const openmenue = () => {
     open == "hidden"
       ? setOpen(
-          "flex flex-col items-center justify-between absolute top-[7vh] right-[10px] w-[50vw] h-max p-8 rounded  bg-purple-200   shadow sm:hidden"
+          "flex flex-col items-center justify-between absolute top-[8vh] right-[10px] w-[50vw] h-max p-8 rounded  bg-purple-200   shadow sm:hidden"
         )
       : setOpen("hidden");
   };
