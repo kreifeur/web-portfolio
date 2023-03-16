@@ -1,10 +1,10 @@
-import { project1, project2, project3, project4 } from "../assets/index";
+import project1 from "../assets/project1.png";
 const Work = () => {
   const projects = [
-    { index: 1, titre: "baleghni", imag: project2 },
-    { index: 2, titre: "gestion de stock", imag: project2 },
-    { index: 3, titre: "dashboard bi", imag: project3 },
-    { index: 4, titre: "pizza", imag: project4},
+    { index: 1, titre: "baleghni", imag: project1 },
+    { index: 2, titre: "gestion de stock", imag: project1 },
+    { index: 3, titre: "dashboard bi", imag: project1 },
+    { index: 4, titre: "pizza", imag: project1},
   ];
 
 

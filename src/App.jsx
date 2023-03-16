@@ -4,7 +4,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Technologies from "./pages/Technologies";
-/* import Work from "./pages/Work"; */
+import Work from "./pages/Work";
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <div className="sm:w-[90%] w-[100vw] h-[100%] bg-black ">
           <Navbar/>
           <Home/>
-          {/* <Work/> */}
+          <Work/>
           <Services/>
           <Technologies/>
           <Contact/>
