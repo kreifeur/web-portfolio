@@ -1,4 +1,4 @@
-import project1 from "../assets/project1.png";
+import project1 from "../assets/project2.png";
 const Work = () => {
   const projects = [
     { index: 1, titre: "baleghni", imag: project1 },
