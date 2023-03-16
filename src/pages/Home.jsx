@@ -13,7 +13,7 @@ const Home = () => {
             experiences to help our clients achieve their <br />
             business goals.
           </div>
-          <div className="text-6xl sm:text-8xl">
+          <div className="text-5xl sm:text-8xl">
             Full stack Web developement
           </div>
         </div>
