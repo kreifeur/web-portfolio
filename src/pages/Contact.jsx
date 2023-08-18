@@ -31,16 +31,11 @@ const Contact = () => {
   return (
     <div id="contact" className=" w-[100%] min-h-[50vh] pt-[15vh] mb-2">
       <div className="sm:p-2 p-4 sm:border rounded border-purple-300">
-        <form
-          ref={form}
-          onSubmit={sendEmail}
-          action=""
-          className="flex flex-col gap-2"
-        >
+        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2">
           <div className="flex justify-between sm:flex-row flex-col gap-8">
             <input
-            onChange={(e) => setName(e.target.value)}
-            value={name}
+              onChange={(e) => setName(e.target.value)}
+              value={name}
               className="p-2 sm:w-[40%] outline-none bg-black border-b-[3px] border-b-purple-300"
               placeholder="Full Name "
               type="text"
@@ -48,8 +43,8 @@ const Contact = () => {
               id=""
             />
             <input
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
               className="p-2 sm:w-[40%] outline-none bg-black border-b-[3px] border-b-purple-300"
               placeholder="Email "
               type="email"
@@ -59,8 +54,8 @@ const Contact = () => {
           </div>
 
           <textarea
-          onChange={(e) => setMessage(e.target.value)}
-          value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}
             className="p-2 outline-none  rounded  border-l border-l-[10px] border-l-purple-300 text-black"
             placeholder="The message content ..."
             name=""

@@ -5,18 +5,17 @@ const Footer = () => {
       <div className="flex justify-around w-[100%] sm:flex-row flex-col">
         <ul className="flex-1 text-center flex flex-col sm:gap-1 gap-2">
           <li className="font-bold">Social media accounts</li>
-          <li>Github</li>
-          <li>linkedin</li>
-          <li>Email</li>
+          <a href="https://github.com/kreifeur">Github</a>
+          <a href="https://www.linkedin.com/in/ibrahim-kreifeur-948682239/">linkedin</a>
         </ul>
         <div className="border-l-2 border-l-black"></div>
         <ul className="flex-1 items-center ml-2 flex flex-col sm:flex-row sm:gap-8  gap-2">
           <li className="font-bold">Website links </li>
-          <li>Home</li>
-          <li>Work</li>
-          <li>Services</li>
-          <li>Technologies</li>
-          <li>Contact</li>
+          <a href="#home"> Home</a>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#technologies">Technologies</a>
+          <a href="#contact">Contact</a>
         </ul>
       </div>
       <div>Design by Kreifeur ibrahim | 2023 @ portfolio</div>
