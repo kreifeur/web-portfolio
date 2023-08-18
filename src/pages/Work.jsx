@@ -5,7 +5,7 @@ import project4 from "../assets/project4.jpg";
 const Work = () => {
   const projects = [
     { index: 1, titre: "baleghni", imag: project1 ,adress :'https://kreifeur.github.io/baleghni/'},
-    { index: 2, titre: "gestion de stock", imag: project2 },
+    { index: 2, titre: "gestion de stock", imag: project2  ,adress: 'https://kreifeur.github.io/Goujil-frontend/'},
     { index: 3, titre: "dashboard bi", imag: project3 },
     { index: 4, titre: "pizza", imag: project4},
   ];

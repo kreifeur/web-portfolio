@@ -49,7 +49,7 @@ const Technologies = () => {
       id="technologies"
       className=" w-[100%] min-h-[100vh] pt-[20vh] flex flex-col gap-8"
     >
-      <div className="text-xl">Realize with Technologies </div>
+      <div className="text-xl">Technologies :</div>
       <div className=" grid p-8 lg:grid-cols-10 md:grid-cols-7 sm:grid-cols-5 grid-cols-3 gap-8 ">
         {tech.map((e) => {
           return (
