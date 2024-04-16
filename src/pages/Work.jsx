@@ -3,8 +3,26 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.jpg";
 import project5 from "../assets/whatsupclone.png";
+import project6 from "../assets/authentik.png";
+import project7 from "../assets/ecommerce.png";
+
 const Work = () => {
   const projects = [
+    {
+      index: 7,
+      titre: "Ecommerce store",
+      desc:'it was full gestion project you can add clients , suppliers , products  using flask and react js',
+      imag: project7,
+      adress: "https://clothes-store-opal.vercel.app/",
+    },
+    {
+      index: 6,
+      titre: "Authentik",
+      desc:'it was full gestion project you can add clients , suppliers , products  using flask and react js',
+      imag: project6,
+      adress: "https://authentik-delta.vercel.app/",
+    },
+
     {
       index: 1,
       titre: "Gestion de stock",
