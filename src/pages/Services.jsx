@@ -17,9 +17,9 @@ const Services = () => {
         </div>
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-3  sm:grid-cols-2 gap-8">
-        {services.map((e) => {
+        {services.map((e,index) => {
           return (
-            <div className="w-[100%] h-[30vh] flex flex-col items-center justify-center bg-gradient-to-r from-white via-gray-500 to-indigo-400 p-10 rounded text-black">
+            <div key={index} className="w-[100%] h-[30vh] flex flex-col items-center justify-center bg-gradient-to-r from-white via-gray-500 to-indigo-400 p-10 rounded text-black">
               <div className="text-lg font-bold">{e.title}</div>
             </div>
           );

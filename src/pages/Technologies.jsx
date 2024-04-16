@@ -59,9 +59,9 @@ const Technologies = () => {
         </div>
       </div>
       <div className=" grid p-8 lg:grid-cols-10 md:grid-cols-7 sm:grid-cols-5 grid-cols-3 gap-8 ">
-        {tech.map((e) => {
+        {tech.map((e,index) => {
           return (
-            <div
+            <div key={index}
               style={{ backgroundImage: `url(${e.icon})` }}
               className={`w-[100%] h-[10vh] text-center  p-10 rounded text-black flex justify-center  items-center bg-center bg-cover  ${
                 (e.title == "Django" || e.title == "Flask") && "bg-white"

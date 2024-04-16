@@ -63,7 +63,7 @@ const Work = () => {
       <div className=" text-black grid grid-cols-1   lg:grid-cols-2 gap-8">
         {projects.map((e) => {
           return (
-            <div className="cursor-pointer [w-100%] bg-gradient-to-r from-white via-gray-200 to-indigo-100 rounded  flex flex-col  p-2 justify-between gap-1 ">
+            <div key={e.index} className="cursor-pointer [w-100%] bg-gradient-to-r from-white via-gray-200 to-indigo-100 rounded  flex flex-col  p-2 justify-between gap-1 ">
               <div className="font-bold text-lg">{e.titre}</div>
               <div>
                 {e.desc}
