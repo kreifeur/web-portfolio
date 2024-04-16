@@ -51,12 +51,12 @@ const Technologies = () => {
     >
       <div className="flex items-center justify-between w-full   sm:flex-row flex-col gap-4">
         <div className="sm:w-[30%] bg-gradient-to-r from-white via-gray-500 to-indigo-400 inline-block text-transparent bg-clip-text text-2xl font-bold w-full">
-          Our product we ve created before
+          Our Technolgies 
         </div>
-        <div className="text-gray-500 w-full sm:w-[50%]">
+      {/*   <div className="text-gray-500 w-full sm:w-[50%]">
           we have many interesting services with profesional team , that will
           help your work to be better
-        </div>
+        </div> */}
       </div>
       <div className=" grid p-8 lg:grid-cols-10 md:grid-cols-7 sm:grid-cols-5 grid-cols-3 gap-8 ">
         {tech.map((e,index) => {
