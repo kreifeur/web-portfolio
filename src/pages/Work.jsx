@@ -34,10 +34,10 @@ const Work = () => {
       <div className=" text-black grid grid-cols-1   lg:grid-cols-2 gap-8">
         {projects.map((e) => {
           return (
-            <div className="cursor-pointer [w-100%] bg-gradient-to-r from-white via-gray-500 to-indigo-400 rounded sm:h-[60vh] h-[30vh] flex flex-col  p-2 justify-between gap-2 ">
+            <div className="cursor-pointer [w-100%] bg-gradient-to-r from-white via-gray-500 to-indigo-400 rounded  flex flex-col  p-2 justify-between gap-2 ">
               <div className="font-bold text-lg">{e.titre}</div>
               <img
-                className="h-[80%] w-[100%] bg-cover bg-center "
+                className=" w-[100%] bg-cover bg-center "
                 src={e.imag}
               ></img>
               <a className="  self-end" href={e.adress}>
