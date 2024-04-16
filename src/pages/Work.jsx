@@ -2,22 +2,33 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.jpg";
+import project5 from "../assets/whatsupclone.png";
 const Work = () => {
   const projects = [
     {
       index: 1,
-      titre: "Baleghni",
-      imag: project1,
-      adress: "https://kreifeur.github.io/baleghni/",
-    },
-    {
-      index: 2,
       titre: "Gestion de stock",
+      desc:'it was full gestion project you can add clients , suppliers , products  using flask and react js',
       imag: project2,
       adress: "https://kreifeur.github.io/Goujil-frontend/",
     },
-    { index: 3, titre: "Dashboard bi", imag: project3 },
-    { index: 4, titre: "Pizzeria menu ", imag: project4 },
+    {
+      index: 2,
+      titre: "what's up clone",
+      desc:'it was full gestion project you can add clients , suppliers , products  using flask and react js',
+      imag: project5,
+      adress: "https://whatsuo-clone.vercel.app/",
+    },
+    {
+      index: 3,
+      titre: "Baleghni",
+      desc:'a diin project using multiple api and react js',
+      imag: project1,
+      adress: "https://kreifeur.github.io/baleghni/",
+    },
+   
+    { index: 4, titre: "Dashboard bi", imag: project3 },
+    { index: 5, titre: "Pizzeria menu ", imag: project4 },
   ];
 
   return (
@@ -34,8 +45,11 @@ const Work = () => {
       <div className=" text-black grid grid-cols-1   lg:grid-cols-2 gap-8">
         {projects.map((e) => {
           return (
-            <div className="cursor-pointer [w-100%] bg-gradient-to-r from-white via-gray-500 to-indigo-400 rounded  flex flex-col  p-2 justify-between gap-2 ">
+            <div className="cursor-pointer [w-100%] bg-gradient-to-r from-white via-gray-200 to-indigo-100 rounded  flex flex-col  p-2 justify-between gap-1 ">
               <div className="font-bold text-lg">{e.titre}</div>
+              <div>
+                {e.desc}
+              </div>
               <img
                 className=" w-[100%] bg-cover bg-center "
                 src={e.imag}
