@@ -2,9 +2,9 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.jpg";
-import project5 from "../assets/whatsupclone.PNG";
-import project6 from "../assets/authentik.png";
-import project7 from "../assets/ecommerce.png";
+import project5 from "../assets/whatsupclone.jpg";
+import project6 from "../assets/authentik.jpg";
+import project7 from "../assets/ecommerce.jpg";
 
 const Work = () => {
   const projects = [
