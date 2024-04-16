@@ -10,7 +10,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
     if (name !== "" && email !== "" && message !== "") {
       emailjs
         .sendForm(
@@ -35,7 +35,17 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="w-[100%] min-h-[50vh] pt-[15vh] mb-2">
+    <div id="contact" className="w-[100%] min-h-[50vh] pt-[15vh] mb-[10vh] flex flex-col gap-8  ">
+      <div className="flex items-center justify-between w-full   sm:flex-row flex-col gap-4 px-5 sm:px-0">
+        <div className="sm:w-[30%] bg-gradient-to-r from-white via-gray-500 to-indigo-400 inline-block text-transparent bg-clip-text text-2xl font-bold w-full">
+          Our product we ve created before
+        </div>
+        <div className="text-gray-500 w-full sm:w-[50%]">
+          we have many interesting services with profesional team , that will
+          help your work to be better
+        </div>
+      </div>
+
       <div className="sm:p-2 p-4 sm:border rounded border-gray-300">
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2">
           <div className="flex justify-between sm:flex-row flex-col gap-8">
