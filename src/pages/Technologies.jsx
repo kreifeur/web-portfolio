@@ -22,6 +22,7 @@ import {
   talend,
   oracle,
   mysql,
+  next,
 } from "../assets/index";
 const Technologies = () => {
   const tech = [
@@ -43,6 +44,7 @@ const Technologies = () => {
     { title: "Git", icon:git},
     { title: "Mongo db", icon: mongodb },
     { title: "MySQL", icon: mysql },
+    { title: "Nextjs", icon: next },
   ];
   return (
     <div

@@ -1,7 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" w-[100%] min-h-[27vh] p-2 bg-gray-200 absolute left-0 flex flex-col items-center justify-between  text-black">
-      <div className="text-2xl">Kreifeur Ibrahim</div>
+    <div className=" w-[100%] min-h-[27vh] p-2 bg-gradient-to-r from-white via-gray-200 to-indigo-100 absolute left-0 flex flex-col items-center justify-between  text-black">
       <div className="flex justify-around w-[100%] sm:flex-row flex-col">
         <ul className="flex-1 text-center flex flex-col sm:gap-1 gap-2">
           <li className="font-bold">Social media accounts</li>
@@ -18,7 +17,7 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </ul>
       </div>
-      <div>Design by Kreifeur ibrahim | 2023 @ portfolio</div>
+      <div className="mt-6">Design by Kreifeur ibrahim | 2023 @ portfolio</div>
     </div>
   );
 };

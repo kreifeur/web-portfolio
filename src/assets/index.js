@@ -21,6 +21,7 @@ import power from "./tech/power.png";
 import talend from "./tech/talend.png";
 import oracle from "./tech/oracle.png";
 import mysql from "./tech/mysql.svg";
+import next from "./tech/NEXT.png";
 
 export {
   css,
@@ -46,4 +47,5 @@ export {
   talend,
   oracle,
   mysql,
+  next,
 };

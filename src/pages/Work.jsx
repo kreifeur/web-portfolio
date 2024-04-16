@@ -55,8 +55,9 @@ const Work = () => {
       adress: "https://kreifeur.github.io/baleghni/",
     },
 
-    { index: 4, titre: "Dashboard bi", imag: project3 },
+    
     { index: 5, titre: "Interactive Menu App ", imag: project4  ,desc:"Crafted with React.js to create a dynamic and user-friendly pizza menu, offering a seamless browsing experience and easy customization options for customers."},
+    { index: 4, titre: "Dashboard bi", imag: project3 },
   ];
 
   return (
