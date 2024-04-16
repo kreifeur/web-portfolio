@@ -32,9 +32,6 @@ const Home = () => {
             </div>
             <li className="font-bold">Kreifeur669@gmail.com </li>
             <li className="text-gray-600 font-bold ">Scroll to explore</li>
-            <a href="#work" className="text-2xl animate-bounce text-gray-600">
-              <BsFillArrowDownSquareFill />
-            </a>
           </ul>
         </div>
       </div>
