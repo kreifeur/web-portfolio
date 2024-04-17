@@ -42,8 +42,8 @@ const Work = () => {
     },
     {
       index: 2,
-      titre: "what's up clone",
-      desc: "Implemented with Tailwind CSS to replicate the UI of What's Up, providing a sleek and responsive user interface for seamless communication and content sharing.",
+      titre: "whatsApp clone",
+      desc: "Implemented with Tailwind CSS to replicate the UI of WhatsApp, providing a sleek and responsive user interface for seamless communication and content sharing.",
       imag: project5,
       adress: "https://whatsuo-clone.vercel.app/",
     },
