@@ -6,6 +6,7 @@ import project5 from "../assets/whatsupclone.jpg";
 import project6 from "../assets/authentik.jpg";
 import project7 from "../assets/ecommerce.jpg";
 import project8 from "../assets/jeep.jpg";
+import project9 from "../assets/gym.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 
@@ -18,12 +19,13 @@ const Work = () => {
       imag: project7,
       adress: "https://clothes-store-opal.vercel.app/",
     },
+
     {
-      index: 6,
-      titre: "Authentik",
-      desc: "Crafted with Next js and tailwindcss to deliver a compelling and interactive landing page that boosts user engagement and effectively communicates the platform's core offerings.",
-      imag: project6,
-      adress: "https://authentik-delta.vercel.app/",
+      index: 9,
+      titre: "GYM landing page",
+      desc: "Leveraged Next.js and Tailwind CSS to build a visually stunning and responsive landing page.",
+      imag: project9,
+      adress: "https://gym-landingpage-chi.vercel.app/",
     },
 
     {
@@ -41,6 +43,14 @@ const Work = () => {
       adress: "https://kreifeur.github.io/Landing-page/",
     },
     {
+      index: 6,
+      titre: "Authentik",
+      desc: "Crafted with Next js and tailwindcss to deliver a compelling and interactive landing page that boosts user engagement and effectively communicates the platform's core offerings.",
+      imag: project6,
+      adress: "https://authentik-delta.vercel.app/",
+    },
+
+    {
       index: 2,
       titre: "whatsApp clone",
       desc: "Implemented with Tailwind CSS to replicate the UI of WhatsApp, providing a sleek and responsive user interface for seamless communication and content sharing.",
@@ -55,8 +65,12 @@ const Work = () => {
       adress: "https://kreifeur.github.io/baleghni/",
     },
 
-    
-    { index: 5, titre: "Interactive Menu App ", imag: project4  ,desc:"Crafted with React.js to create a dynamic and user-friendly pizza menu, offering a seamless browsing experience and easy customization options for customers."},
+    {
+      index: 5,
+      titre: "Interactive Menu App ",
+      imag: project4,
+      desc: "Crafted with React.js to create a dynamic and user-friendly pizza menu, offering a seamless browsing experience and easy customization options for customers.",
+    },
     { index: 4, titre: "Dashboard bi", imag: project3 },
   ];
 
